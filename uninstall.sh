@@ -8,7 +8,7 @@ fi
 echo "=== KStartup Uninstaller ==="
 
 if [ -f "/usr/bin/kstartup" ]; then
-    rm -f /usr/bin/kstartup
+    rm  /usr/local/bin/kstartup
     echo "Removed binary from /usr/bin/kstartup"
 fi
 
