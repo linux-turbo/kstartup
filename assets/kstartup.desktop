@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=KStartup
+Comment=Delayed autostart manager for Linux and BSD
+Exec=kstartup
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;System;
