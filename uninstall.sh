@@ -7,13 +7,13 @@ fi
 
 echo "=== KStartup Uninstaller ==="
 
-if [ -f "/usr/bin/kstartup" ]; then
+if [ -f "/usr/local/bin/kstartup" ]; then
     rm  /usr/local/bin/kstartup
     echo "Removed binary from /usr/bin/kstartup"
 fi
 
 if [ -f "/usr/share/applications/kstartup.desktop" ]; then
-    rm -f /usr/share/applications/kstartup.desktop
+    rm  /usr/share/applications/kstartup.desktop
     echo "Removed desktop entry file"
 fi
 
